@@ -5,7 +5,29 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F7F8FA;
+}
+
+li {
+    list-style: none;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+}
+
+.coluna {
+    background-color: #EFF2F7;
+    width: 350px;
+    padding: 15px 10px;
+}
+
+.tarefa {
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px 7px;
+    border-radius: 10px;
 }

@@ -9,6 +9,12 @@
 <body>
     <h1>Minhas Tarefas:</h1>
 
+    <form id="adicionar-tarefa">
+        <label for="nova-tarefa">Tarefa:</label>
+        <input type="text" id="nova-tarefa" name="nova-tarefa">
+        <button type="submit">Adicionar</button>
+    </form>
+
     <div class="container">
         <div class="coluna" id="a-fazer">
             <h2>A Fazer</h2>
@@ -23,12 +29,6 @@
             <ul class="tarefas" id="tarefas-feito"></ul>
         </div>
     </div>
-
-    <form id="adicionar-tarefa">
-        <label for="nova-tarefa">Tarefa:</label>
-        <input type="text" id="nova-tarefa" name="nova-tarefa">
-        <button type="submit">Adicionar</button>
-    </form>
 
     <script src="script.js"></script>
 </body>
