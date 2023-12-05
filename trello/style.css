@@ -5,12 +5,29 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Maven';
+    src: url(font/MavenPro-VariableFont_wght.ttf);
+}
+
 body {
-    background-color: #F7F8FA;
+    background: rgb(32,59,140);
+    background: radial-gradient(circle, rgba(32,59,140,1) 0%, rgba(75,54,147,1) 25%, rgba(105,50,152,1) 37%, rgba(125,48,155,1) 50%, rgba(144,46,158,1) 62%, rgba(165,43,161,1) 75%, rgba(217,37,169,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Maven', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
 }
 
 li {
     list-style: none;
+    font: 400 20px 'Maven', sans-serif;
 }
 
 .container {
@@ -19,15 +36,45 @@ li {
     margin-top: 50px;
 }
 
+label {
+    font: 500 20px 'Maven', sans-serif;
+    color: #fff;
+}
+
+input {
+    padding: 7px;
+    border-radius: 10px;
+    font: 400 15px 'Maven', sans-serif;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0D0D0D;
+    color: #fff;
+    font: 400 14px 'Maven', sans-serif;
+}
+
 .coluna {
-    background-color: #EFF2F7;
+    background: rgba(199, 213, 255, 0.7);
+    border: 2px solid rgba(255, 255, 255, .2);
+    fill: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 60px 55px;
+    border-radius: 10px;
     width: 350px;
-    padding: 15px 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
 }
 
 .tarefa {
-    background-color: #fff;
-    margin: 5px;
-    padding: 10px 7px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px 15px;
     border-radius: 10px;
+}
+
+#adicionar-tarefa {
+    margin: 0 50px;
 }
